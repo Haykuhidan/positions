@@ -1,0 +1,13 @@
+I have descriptions from our clients' card payment transactions. Please research these descriptions and provide detailed context for each payment. If the payment appears to relate to private entrepreneurship, specify this clearly. If it corresponds to a store, classify it accordingly and identify the specific type of store in detail. If you're unable to confidently determine the context or find sufficient information, indicate that the information is unavailable.
+I will provide samples, and please return me json format with this structure:
+{{
+"classifications": [
+{{
+"description": <description>,
+"store_name": <only store name without city or location>
+"category":  <sector of store>
+}},
+...
+]
+}}
+Here is my list.
